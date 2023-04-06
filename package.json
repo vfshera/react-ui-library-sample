@@ -1,0 +1,13 @@
+{
+  "name": "ui-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playground": "pnpm --filter=nextjs-playground dev",
+    "build:ui": "pnpm --filter=ui build"
+  },
+  "keywords": [],
+  "author": "Franklin Shera",
+  "license": "MIT"
+}
