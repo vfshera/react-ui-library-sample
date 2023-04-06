@@ -4,15 +4,12 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf dist && tsc"
+    "build": "rm -rf dist && tsc",
+    "dev": "tsc --watch"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "react": "18.2.0"
-  },
-  "devDependencies": {
-    "typescript": "5.0.3"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

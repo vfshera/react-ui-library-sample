@@ -1,9 +1,18 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx",
+    "jsx": "react",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
     "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "target": "es6",
+    "module": "esnext",
+    "declaration": true,
     "esModuleInterop": true,
-    "module": "CommonJS",
     "outDir": "dist"
   },
   "exclude": ["dist", "node_modules"],

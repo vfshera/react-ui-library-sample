@@ -1,11 +1,25 @@
 {
-  "name": "ui-lib",
+  "name": "root",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": "true",
+  "workspaces": [
+    "packages/*",
+    "playground/*"
+  ],
+  "dependencies": {
+    "react": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "typescript": "5.0.3"
+  },
   "scripts": {
     "playground": "pnpm --filter=nextjs-playground dev",
-    "build:ui": "pnpm --filter=ui build"
+    "dev:ui": "pnpm --filter=ui dev",
+    "build:ui": "pnpm --filter=ui build",
+    "dev": "pnpm run playground & pnpm run dev:ui"
   },
   "keywords": [],
   "author": "Franklin Shera",
